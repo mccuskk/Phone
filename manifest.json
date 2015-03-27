@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Phone",
+  "short_name": "Phone",
+  "description": "",
+  "version": "0.0.2",
+  "minimum_chrome_version": "41",
+  "bluetooth": {
+    "socket": true,
+    "uuids": [ "46ab76a3-bccd-4f29-a528-f03ba64a0589" ]
+  },
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
